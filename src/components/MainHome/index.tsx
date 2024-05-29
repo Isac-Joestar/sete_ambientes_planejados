@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 
 function MainHome() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [previousIndex, setPreviousIndex] = useState(-1);  // State to keep track of the previous index for fade-out
 
     const frases = [
         "Experiencie o conforto e a elegância <br/> de viver em um espaço feito <br/> especialmente para você",
@@ -25,7 +24,7 @@ function MainHome() {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setPreviousIndex(currentIndex); // Set the current index as the previous before changing it
+
             setCurrentIndex((prevIndex) => (prevIndex + 1) % frases.length);
         }, 10000); // 10000ms = 10s
 
