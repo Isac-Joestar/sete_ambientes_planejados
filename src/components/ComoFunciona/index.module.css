@@ -1,0 +1,10 @@
+.container{
+    margin: 5vh 0vh 1vh 0vh;
+    width: 100%;
+    min-height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}

@@ -1,0 +1,38 @@
+.card{
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+.titulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-text);
+}
+.text{
+    /* background-color: aqua; */
+    height: 75px;
+    text-align: center; 
+    font-size: 16px;
+    font-weight:400;
+    color: var(--primary-text); 
+}
+
+.content_icon{
+    height: 70px;
+    /* background-color: aqua; */
+}
+.content_icon img{
+    height: 100%;
+    /* background-color: rgb(229, 255, 0); */
+}
